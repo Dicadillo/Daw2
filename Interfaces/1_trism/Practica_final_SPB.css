@@ -1,0 +1,84 @@
+ .titulo {
+    margin: 0;
+    padding-left: 3px;
+    font-size: xx-large;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.75)
+ }
+
+.titulos {       
+    margin: 2% 3%;
+    padding-left: 5px;
+    color: black;
+    text-align:left;
+    background-color: rgb(130, 255, 197);
+    border-radius: 0% 0% 1em 1em;
+    box-shadow: 5px 3px 2px rgba(0, 0, 0, 0.75);
+}
+div header {
+    border: 1px solid rgb(6, 158, 64);
+    border-radius: 0.4em;
+    color: black;
+    background: linear-gradient(rgb(0, 139, 97),rgb(255, 255, 255));
+    box-shadow: 5px 2px 2px rgba(0, 0, 0, 0.75);
+    padding-left: 2px;
+    padding-right: 2%;
+    
+}
+a {
+    list-style: square;
+    border-bottom:1px dashed green;
+    text-decoration:none;
+    color: green;
+    margin-left: 1%;
+    width: 30px;
+
+}
+
+header li {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    border: 1px solid rgb(6, 158, 64);
+    color: green;
+    float: right;
+    padding: 3px 1% ;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75);
+  }
+
+.medio{
+    list-style: square inside;
+    padding: 3% 3% 3% 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.bloc{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 3000%;
+    
+}
+.hrverde {
+    list-style: square;
+    border-style: 2;
+    border-color: green;
+    text-align: left;
+}
+hr ~ p{
+    font-style: italic;
+}
+header li:hover {
+    background-color: #00ff9d;
+    color: white;
+  }
+.pie{
+    text-align: center;
+}
+span{
+    display: flex;
+    float: right;
+    padding-right: 2%;
+}
